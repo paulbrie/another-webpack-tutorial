@@ -4,6 +4,7 @@ module.exports = {
   output: {
     path: './bin',
     publicPath: '/assets/',
-    filename: 'app.bundle.js'
+    filename: 'app.bundle.js',
+    contentBase: './public'
   }
 };
