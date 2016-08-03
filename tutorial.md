@@ -135,6 +135,7 @@ src/
 ---/module2.js
 package.json
 webpack.config.json
+</pre>
 
 ### Step 4 - integrating the bundle in a html page
 Now that my bundle is built I want to be able to serve it to a html page. For this purpose webpack offers a great tool which is <a href="http://webpack.github.io/docs/webpack-dev-server.html" target="_blank">webpack-dev-server</a>. It is available under another npm package. Let's install it:
